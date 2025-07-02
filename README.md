@@ -45,7 +45,7 @@ Sets the deployer as the `owner`.
 ```solidity
 event Deposited(address indexed sender, uint256 amount);
 
-
+```
 ### Solana 
 # 🔢 Solana Number Store Program
 
@@ -70,7 +70,12 @@ solana_number_store/
 ├── Anchor.toml
 ├── Cargo.toml
 └── README.md
+```
 # Build the Program
+```bash
 anchor build
+```
 #  Deploy to Devnet
+```bash
 anchor deploy --provider.cluster devnet
+```
