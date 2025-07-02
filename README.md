@@ -1,7 +1,7 @@
 ## Solidity and Rust
 this is Ethereum and Solana program.
-### Ethereum 
-# SimpleWallet Smart Contract
+# Ethereum 
+## SimpleWallet Smart Contract
 
 This is a basic Ethereum smart contract written in Solidity that allows:
 
@@ -46,8 +46,8 @@ Sets the deployer as the `owner`.
 event Deposited(address indexed sender, uint256 amount);
 
 ```
-### Solana 
-# 🔢 Solana Number Store Program
+# Solana 
+## 🔢 Solana Number Store Program
 
 This Solana program, written in Rust using the [Anchor framework](https://www.anchor-lang.com/), allows a user to:
 
@@ -71,11 +71,11 @@ solana_number_store/
 ├── Cargo.toml
 └── README.md
 ```
-# Build the Program
+## Build the Program
 ```bash
 anchor build
 ```
-#  Deploy to Devnet
+##  Deploy to Devnet
 ```bash
 anchor deploy --provider.cluster devnet
 ```
